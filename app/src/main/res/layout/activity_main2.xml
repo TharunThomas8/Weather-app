@@ -1,56 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    >
+    tools:context="com.example.user.jason.MainActivity2">
 
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="27dp"
-        android:text="Back"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="147dp"
-        tools:layout_editor_absoluteY="454dp" />
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:scaleType="centerCrop"
-        android:src="@drawable/bg2" />
-
-    <ImageView
-        android:id="@+id/s"
-        android:contentDescription="@string/hub"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:scaleType="fitCenter"
-        android:src="@drawable/sun" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="339dp"
-        android:layout_height="81dp"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="FOSS@AMRITA"
-        android:textAlignment="center"
-        android:textColor="#072942"
-        android:textSize="44dp"
-        android:textStyle="bold"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="23dp"
-        tools:layout_editor_absoluteY="199dp" />
-</RelativeLayout>
+</android.support.constraint.ConstraintLayout>
